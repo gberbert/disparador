@@ -1,6 +1,6 @@
 {
   "name": "rpa-worker",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "WhatsApp RPA Worker",
   "main": "bot.js",
   "scripts": {
