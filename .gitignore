@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+web/node_modules/
+worker/node_modules/
+
+# Environment
+.env
+.env.local
+
+# Build outputs
+dist/
+build/
+
+# WhatsApp Session
+.wwebjs_auth/
+.wwebjs_cache/
+session/
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large Files / Other
+input.xlsx
+*.exe
+*.dll
+*.zip

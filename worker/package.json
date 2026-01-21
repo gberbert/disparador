@@ -1,0 +1,16 @@
+{
+  "name": "rpa-worker",
+  "version": "0.0.6",
+  "description": "WhatsApp RPA Worker",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "nodemailer": "^7.0.11",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "disparador-root",
+    "private": true,
+    "scripts": {
+        "dev": "cd web && npm run dev",
+        "web": "cd web && npm run dev",
+        "bot": "cd worker && npm start",
+        "build": "cd web && npm run build",
+        "install:all": "cd web && npm install && cd ../worker && npm install"
+    }
+}
